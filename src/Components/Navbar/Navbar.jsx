@@ -74,9 +74,9 @@ const Navbar = () => {
               <img src={user} />
             </div>
           </label>
-          <Link>
-            {" "}
-            <button className="btn btn-neutral">Login </button>{" "}
+          <Link to='/login'>
+           
+            <button className="btn btn-neutral">Login </button>
           </Link>
         </div>
       </div>
