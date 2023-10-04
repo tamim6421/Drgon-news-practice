@@ -11,7 +11,7 @@ const LeftSideNav = () => {
         .then( data  => setCategory(data) )
     } ,[])
 
-    console.log(categories)
+    // console.log(categories)
     return (
         <div className="p-3 space-y-2">
             <h3 className="text-xl font-semibold text-center">All Catagories: {categories.length}</h3>
